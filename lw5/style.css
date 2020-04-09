@@ -1,0 +1,200 @@
+body, html
+{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: ;
+}
+
+.container
+{
+    width: 987px;
+    display: table;
+    padding-left: 480px;
+    margin-top: 50px;
+    
+}
+
+
+#photo
+{
+    float: left;
+    height: 350px;
+    width: 330px;
+}
+
+#targets
+{
+    float: left;
+}
+
+#targets h2
+{
+     font-family: sans-serif;
+     font-weight: 500;
+     font-size: 26px;
+     margin:10px;
+}
+
+#main
+{
+    float: right;
+    width: 500px;
+    padding-right: 100px;
+    line-height: 1.8em;
+}
+
+#high
+{
+    width: auto;
+    height: 350px;
+}
+
+
+
+#down
+{
+    width: 1000px;
+    height: 600px;;
+}
+
+#left
+{ 
+    padding-left: 500px;
+    padding-top: 0px;
+}
+
+#right
+{
+    width: 65%;
+    height: auto;
+    padding-left: 60px;
+
+}
+
+#down h2
+{
+    color: #15a98c;
+    margin-top: 50px;
+}
+
+#first_ul li
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#second_ul li
+{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#quote 
+{
+    margin: 0;
+    float: right;
+    padding-top: 50px;
+    padding-right: 120px;
+    
+}
+
+#quote p
+{
+   font-family: 'Georgia';
+   color: #555555;
+   font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    margin-top: -10px;
+    
+}
+
+#quote h3
+{
+   font-family: 'Open Sans';
+    font-weight: 600;
+    color: #000;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    margin-top: 30px;
+   
+}
+
+#quote img
+{
+    width: 130px ;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+#right h1
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-bottom: -20px;
+}
+
+#main p
+{
+    font-size: 21px;
+}
+
+#main_first
+{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#main_first p
+{
+    padding-top: 0px;
+}
+
+#main_second
+{
+    font-size: 18px;
+}
+
+#main hr
+{
+    width: 60px;
+    height: 7px;
+    border: 0;
+    background-color: #45c3aa;
+    border-radius: 3px;
+    margin: 0;
+    padding: 0;
+}
+
+#main h1 
+{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+#main h2
+{
+    margin:0;
+    padding:0;
+    margin-top: 30px;
+    font-family: sans-serif;
+    color: black;
+    font-size: 30px
+}
+
+#down a
+{
+    color: #15a98c;
+    font-size: 20px;
+}
+
+
