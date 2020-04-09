@@ -15,6 +15,17 @@ body, html
     
 }
 
+#forms
+{
+    width: 200px;
+    float: left;
+}
+
+#message
+{
+    height: 150px;
+    width: 250px;
+}
 
 #photo
 {
@@ -28,22 +39,11 @@ body, html
     float: left;
 }
 
-#targets h2
-{
-     font-family: sans-serif;
-     font-weight: 500;
-     font-size: 26px;
-     margin:10px;
-}
-
 #main
 {
     float: right;
     width: 500px;
-    padding-right: 100px;
-    line-height: 1.8em;
 }
-
 #high
 {
     width: auto;
@@ -72,7 +72,12 @@ body, html
 
 }
 
-#down h2
+#left, #right
+{
+    display: table-cell;
+}
+
+#left h2
 {
     color: #15a98c;
     margin-top: 50px;
@@ -80,22 +85,19 @@ body, html
 
 #first_ul li
 {
-    padding-top: 10px;
-    font-size: 20px;
+    padding-top: 15px;
 }
 
 #second_ul li
 {
-    padding-top: 10px;
-    font-size: 20px;
+    padding-top: 15px;
 }
 
 #quote 
 {
     margin: 0;
     float: right;
-    padding-top: 50px;
-    padding-right: 120px;
+    padding-top: 100px;
     
 }
 
@@ -143,10 +145,6 @@ body, html
     margin-bottom: -20px;
 }
 
-#main p
-{
-    font-size: 21px;
-}
 
 #main_first
 {
@@ -156,7 +154,7 @@ body, html
 
 #main_first p
 {
-    padding-top: 0px;
+    padding-top: 30px;
 }
 
 #main_second
@@ -177,8 +175,7 @@ body, html
 
 #main h1 
 {
-    font-size: 50px;
-    font-family: sans-serif;
+    
 }
 
 #main h2
@@ -186,9 +183,6 @@ body, html
     margin:0;
     padding:0;
     margin-top: 30px;
-    font-family: sans-serif;
-    color: black;
-    font-size: 30px
 }
 
 #down a
