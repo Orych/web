@@ -1,0 +1,63 @@
+.header
+{
+  height: 50px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+.Navigation
+{
+
+}
+
+.menu
+{
+  list-style-type: none;
+  margin: 0;
+  height: 50px;
+  padding-left: 480px;
+}
+
+.menu_zero_element
+{
+  width: 440px;
+  height: 50px;
+}
+.menu_first_element
+{
+  width: 140px;
+  color: white;
+}
+
+.menu_first
+{
+  background-color:  #15a98c;
+  height: 50px;
+}
+
+.menu_second_element
+{
+  width: 160px;
+  color: black;
+}
+
+.menu_third_element
+{
+  width: 220px;
+  color: black;
+}
+
+.menu a
+{
+  display: block;
+  font: 500 19px 'Georgia';
+  text-align: center;
+  height: 25px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+.menu li
+{
+  display: inline-block;
+}
