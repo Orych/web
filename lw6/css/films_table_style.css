@@ -1,0 +1,74 @@
+.films_background
+{
+  background-color: #f9f9f9;
+  height: 1000px;
+  
+}
+.favourite_films_table
+{
+  width: 1160px;
+  height: 700px;
+  margin-left: 360px;
+  padding-top: 50px;
+}
+
+.films p
+{
+  font: 16px 'Georgia';
+}
+
+.films h2
+{
+  font: 700 22px 'Open Sans'
+}
+
+.films_header
+{
+  font: 36px 'Open Sans';
+  margin-bottom: 40px;
+}
+
+.first_film
+{
+  width: 275px;
+  height: 650px;
+  float: left;
+}
+
+.second_film
+{
+  width: 275px;
+  height: 650px;
+  float: left;
+  padding-left: 20px;
+}
+
+.third_film
+{
+  width: 275px;
+  height: 650px;
+  float: left;
+  padding-left: 20px;
+}
+
+.fourth_film
+{
+  width: 275px;
+  height: 650px;
+  float: right;
+  padding-left: 20px;
+}
+
+.more_films
+{
+  margin-left: 840px;
+  height: 50px;
+  width: 220px;
+  background-color: #45c3aa;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+  font: 19px 'Regular';
+  
+}

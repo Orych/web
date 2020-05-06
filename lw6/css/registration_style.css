@@ -1,0 +1,109 @@
+.left_line, .right_line
+{
+  width: 200px;
+  height: 1px;
+  background-color: #c4c4c4;
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+}
+.left_line
+{
+  right: 30px;
+}
+
+.right_line
+{
+  left: 30px;
+}
+
+.form_header
+{
+  text-align: center;
+  height: 30px;
+}
+
+.form_header p
+{
+  font: 100 36px 'Open Sans'
+}
+
+.form
+{
+  padding-left: 720px;
+  padding-top: 90px;
+}
+
+.star
+{
+  color: red;
+}
+
+.form p
+{
+  color: black;
+  font: 20px 'Open Sans'
+}
+
+.name, .email, .country_choice
+{
+  width: 540px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: #a6a6a6 !important;
+  border-width: medium;
+  font: 200 20px 'Regular';
+}
+
+.name, .email, .country_choice:focus
+{
+  border-color: #15a98c;
+}
+
+.your_gender
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.country
+{
+  font: 18px 'Regular';
+}
+
+.message_area
+{
+  height: 150px;
+  width: 520px;
+  border-radius: 4px;
+  border-width: medium;
+  font: 200 18px 'Regular';
+}
+
+.message_area:focus
+{
+  border-color: #15a98c;
+}
+
+.your_gender label
+{
+  font: 200 18px 'Regular';
+}
+
+.button_form
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button_form_style
+{
+  height: 50px;
+  width: 220px;
+  background-color: #45c3aa;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font: 200 19px 'Regular';
+}
+
