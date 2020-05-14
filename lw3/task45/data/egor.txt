@@ -1,0 +1,4 @@
+Имя: egor 
+Фамилия: lfndbd
+email: egor
+Возраст: 24
