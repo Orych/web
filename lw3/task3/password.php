@@ -43,12 +43,12 @@ function checkComplexityOfPasswordParametr($text)
     };
     echo $reText;
     for ($i = 0; $i < strlen($reText); $i++) 
-	{
+    {
         if (substr_count($text, $reText[$i]) > 1) 
-		{
-		    $Complexity = $Complexity - substr_count($text, $reText[$i]);
-		}
+        {
+            $Complexity = $Complexity - substr_count($text, $reText[$i]);
 	}
+    }
     echo $Complexity, "\n";
     echo $numberScore, ' numberScore', "\n";
     echo $smallLettersCount, ' smallLettersCount', "\n";
