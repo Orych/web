@@ -61,7 +61,7 @@ function checkComplexityOfPasswordParametr($text)
     echo $Complexity, 'smcmpx', "\n";
     $Complexity = $Complexity + ((strlen($text) - $bigLettersCount) * 2);
     echo $Complexity, 'bigcmpx', "\n";
-    if ($numberScore = 0)
+    if ($numberScore == 0)
     {
         $Complexity = $Complexity - strlen($text);
     }
