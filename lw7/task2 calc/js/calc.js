@@ -11,7 +11,11 @@ function  calc(calcStr) {
     let missChStr = false;
 
    for (let k = 0; k < symbAndNum.length; k++) {
-        if (!((isFinite(symbAndNum[k])) || ((symbAndNum[k] == '*')    || (symbAndNum[k] == '/')    || (symbAndNum[k] == '+')    || (symbAndNum[k] == '-')))) {
+        if (!((isFinite(symbAndNum[k])) || 
+             ((symbAndNum[k] == '*')    || 
+              (symbAndNum[k] == '/')    || 
+              (symbAndNum[k] == '+')    || 
+              (symbAndNum[k] == '-')))) {
             corrStr = false;
         } 
     }
@@ -21,7 +25,11 @@ function  calc(calcStr) {
             break;
         }
 
-        if((symbAndNum.length < 3) || !((symbAndNum[i] == '*')    || (symbAndNum[i] == '/')    || (symbAndNum[i] == '+')    || (symbAndNum[i] == '-'))) {
+        if((symbAndNum.length < 3) || 
+       !((symbAndNum[i] == '*')    || 
+         (symbAndNum[i] == '/')    || 
+         (symbAndNum[i] == '+')    || 
+         (symbAndNum[i] == '-'))) {
             missChStr = true;
             break;
         }
