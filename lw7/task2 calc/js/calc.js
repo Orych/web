@@ -70,7 +70,7 @@ function mathematics(oper, firstNum, secNum) {
     switch(oper) {
         case '/' : {
             firstNum = parseFloat(firstNum) / parseFloat(secNum);
-            break
+            break;
         }
         case '*' : {firstNum = parseFloat(firstNum) * parseFloat(secNum); break}
         case '+' : {firstNum = parseFloat(firstNum) + parseFloat(secNum); break}
