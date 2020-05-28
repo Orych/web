@@ -104,5 +104,5 @@ function run () {
     }
   });
 };
-window.onload = run
+window.onload = run;
   
