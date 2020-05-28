@@ -1,0 +1,86 @@
+.films_background
+{
+  background-color: #f9f9f9;
+  height: 1000px;
+  
+}
+
+.film_slider
+{
+  display: inline-block;
+  height: 900px;
+}
+
+.favourite_films_table
+{
+  padding-top: 50px
+}
+
+.films
+{
+  width: 1500px;
+  height: 700px;
+  margin-left: 360px;
+}
+
+.slide img{
+  width: 285px;
+  height: 190px;
+}
+
+.slide{
+  float: left;
+  display: inline-block;
+  width: 275px;
+  height: 650px;
+  padding-left: 20px;
+}
+
+.films p
+{
+  font: 16px 'Georgia';
+}
+
+.films h3
+{
+  font: 700 22px 'Open Sans'
+}
+
+.films_header
+{
+  font: 36px 'Open Sans';
+  margin-bottom: 40px;
+  margin-left: 380px;
+}
+
+#slide_left
+{
+  display: block;
+  position: absolute;
+  margin-left: 290px;
+  margin-top: 30px;
+}
+
+#slide_right
+{
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  margin-left: 1570px;
+  margin-top: 30px;
+}
+
+.more_films
+{
+  margin-left: 840px;
+  height: 50px;
+  width: 220px;
+  background-color: #45c3aa;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: 50px;
+  font: 19px 'Georgia';
+  
+}

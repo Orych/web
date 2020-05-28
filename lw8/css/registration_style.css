@@ -1,0 +1,145 @@
+.left_line, .right_line
+{
+  width: 200px;
+  height: 1px;
+  background-color: #c4c4c4;
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+}
+.left_line
+{
+  right: 30px;
+}
+
+.right_line
+{
+  left: 30px;
+}
+
+.form_header
+{
+  text-align: center;
+  height: 30px;
+  color: #333333;
+}
+
+.form_header p
+{
+  font: 100 36px 'Open Sans'
+}
+
+.form
+{
+  padding-left: 720px;
+  padding-top: 90px;
+}
+
+.star
+{
+  color: red;
+}
+
+.form p
+{
+  color: black;
+  font: 20px 'Open Sans'
+}
+
+.name:focus, .email:focus, .country_choice:focus, .message_area:focus
+{
+  border-color: #15a98c;
+}
+
+.name, .email
+{
+  width: 526px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: #a6a6a6;
+  border: solid;
+  border-width: medium;
+  font: 200 20px 'Myriad Pro';
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.country_choice
+{
+  width: 547px;
+  height: 50px;
+  border-radius: 4px;
+  border-color: #a6a6a6;
+  border: solid;
+  border-width: medium;
+  font: 200 20px 'Myriad Pro';
+  padding-left: 7px;
+}
+
+.your_country select
+{
+  background-image:url("../images/background_img/arrow_down.png");
+  background-repeat: no-repeat;
+  background-position: 510px;
+  -webkit-appearance: none;
+}
+
+.your_gender
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#radio_gender_women
+{
+  margin-left: 30px;
+}
+
+
+.your_gender label
+{
+  font: 200 18px 'Open sans';
+}
+
+.country
+{
+  font: 18px 'Myriad Pro';
+}
+
+.message_area
+{
+  height: 150px;
+  width: 520px;
+  border-radius: 4px;
+  border-width: medium;
+  font: 200 18px 'Myriad Pro';
+  resize: none;
+}
+
+.message_area:focus
+{
+  border-color: #15a98c;
+}
+
+.button_form
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button_form_style
+{
+  height: 50px;
+  width: 220px;
+  background-color: #45c3aa;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font: 200 19px 'Georgia';
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+

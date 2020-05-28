@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Page about my life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="css/menu_style.css">
+  <link rel="stylesheet" href="css/films_table_style.css">
+  <link rel="stylesheet" href="css/registration_style.css">
+  <script defer src="js/slider.js"></script>
+</head>
+<body>
+  <script defer src="js/slider.js"></script>
+  <div class="header">
+    <nav class="Navigation">
+      <ul class="menu">
+        <li>   
+          <a class="menu_first_element" href="#about_me">
+            <img src="images/header_icons/about_me_icon.png"> Обо мне       
+          </a>
+        </li>
+        <li>  
+          <a class="menu_second_element" href="#my_hobby"><img src="images/header_icons/hobby_icon.png"> Мое хобби</a>
+        </li>
+        <li>  
+          <a class="menu_third_element" href="#my_favourite_films"><img src="images/header_icons/video_icon.png"> Любимые фильмы</a>
+        </li>
+      </ul>
+  </nav>
+  </div>
+  <div class="background">
+    <div class="container">
+      <div class="high">
+        <a name="about_me"></a>
+        <img class="photo" src="images/my_photo.png" alt="photo">
+        <div class="quote">
+          <p>Мы берем на себя много, потому<br>что мало чего боимся</p>
+          <p class="author">&mdash;Том Демарко.Deadline</p>
+        </div>
+      </div>
+      <div class="down">
+        <div class="main">
+          <h1 class="main_topic"> Jane Doe </h1>
+          <hr>
+          <div class="main_first">
+            <p>
+              В 1930-е годы прошлого века физик Джордж Гамоу из университета штата Колорадо начал публиковать мини-сериал рассказов о неком мистере Томпкинсе, банковском клерке средних лет. Мистер Томпкинс, как явствовало из этих историй, интересовался современной наукой. 
+            </p>  
+          </div>
+          <a name="my_hobby"></a>
+          <h2 class="second_topic">Мое хобби</h2>
+          <div class="main_second">
+            <p>
+              Он регулярно посещал вечерние лекции местного профессора и, разумеется, всегда засыпал на самом интересном месте.А когда просыпался, то обнаруживал себя в каком-нибудь параллельном мире, где один из основных законов физики действовал не так, как в его мире. 
+            </p>
+          </div>
+          <p class="pointer"><a href="https://vk.com/id154016623">Напиши мне </a><span>&rarr;</span></p>
+        </div>
+        <div class="targets">
+          <div class="first_ul">
+            <h2 class="h2_targets">Любимые писатели:</h2>
+            <ul>
+              <li>Айзек Азимов</li>
+              <li>Говард Лавкрафт</li>
+              <li>Дмитрий Глуховский</li>
+              <li>Чак Паланик</li>
+            </ul>
+          </div>
+          <div class="second_ul"> 
+            <h2 class="h2_targets">Любимые фильмы:</h2>
+            <ol>
+              <li>Шоу Трумена</li>
+              <li>Малхолланд Драйв</li>
+              <li>Семь жизней</li>
+              <li>Гравитация</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="films_background">
+      <div class="favourite_films_table">
+        <a name="my_favourite_films"></a>
+        <p class="films_header">Любимые фильмы</p>
+        <div class="film_slider">
+          <input type="image" src="images/left_button.png" id="slide_left">
+          <input type="image" src="images/right_button.png" id="slide_right">
+          <div class="films">
+          </div>
+          <button class="more_films">Все фильмы</button>
+        </div>
+      </div>
+    </div>
+    <div class="form_registration">
+      <div class="form_header">
+        <p><span class="left_line"></span>НАПИШИ МНЕ<span class="right_line"></span></p>
+      </div>
+      <div class="form">
+        <form action="URL" method="get" class="form_name">
+          <div class="your_name">
+            <p>Ваше имя<span class="star">*</span></p>
+            <input type="text" name="first_name" class="name">
+          </div>
+          <div class="your_email">
+            <p>Ваш email<span class="star">*</span></p>
+            <input type="email" name="e_mail" class="email">
+          </div>
+          <div class="your_country">
+            <p>Откуда вы?</p>
+            <select class="country_choice" name="country_choice">
+              <option class="country">США</option>
+              <option class="country">Россия</option>
+            </select>
+          </div>
+          <div class="your_gender">
+            <p>Ваш пол</p>
+            <input id="radio_gender_man" type="radio" name="gender"/>
+            <label for="radio_gender_man">Мужской</label>
+            <input id="radio_gender_women" type="radio" name="gender">
+            <label for="radio_gender_women">Женский</label>
+          </div>
+          <div class="message">
+            <p>Ваше сообщение<span class="star">*</span></p>
+            <textarea class="message_area" name="message"></textarea>
+          </div>
+          <div class="button_form">
+            <input type="submit" name="submit_button" value="Отправить" class="button_form_style">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <p>© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</p>
+    </div>
+  </div>
+</body>
+</html>
